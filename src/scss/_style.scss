@@ -8,7 +8,7 @@ body {
     background: linear-gradient(rgba(40, 40, 40, 0.92), rgba(40, 40, 40, 0.92)), url("../img/background.jpg");
 }
 
-button{
+button {
     width: 110px;
     height: 24px;
     background-color: rgb(255, 123, 0);
@@ -18,7 +18,7 @@ button{
     color: black;
     text-transform: uppercase;
     transition: 0.5s;
-    &:hover{
+    &:hover {
         background-color: rgb(250, 152, 61);
     }
 }
@@ -32,27 +32,27 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    img{
+    img {
         margin: 0 10px;
     }
-    .social{
+    .social {
         display: flex;
         justify-content: space-between;
-        img{
+        img {
             transition: 0.5s;
-            &:hover{
+            &:hover {
                 transform: scale(1.1);
-        }
+            }
         }
     }
-    .status{
-        font-family: 'Press Start 2P', cursive;
+    .status {
+        font-family: "Press Start 2P", cursive;
         margin: 0 10px;
         display: block;
         color: white;
     }
-    .about{
-        font-family: 'Amatic SC', cursive;
+    .about {
+        font-family: "Amatic SC", cursive;
         position: absolute;
         left: 40%;
         color: white;
@@ -60,7 +60,6 @@ button{
         font-weight: 300;
     }
 }
-
 
 .budget,
 .pulse,
@@ -82,8 +81,8 @@ button{
             border: 2px solid rgb(255, 123, 0);
         }
     }
-    .text{
-        &-wrapper{
+    .text {
+        &-wrapper {
             width: 200%;
             overflow: hidden;
             display: flex;
@@ -110,12 +109,12 @@ button{
                         color: rgb(255, 123, 0);
                     }
                 }
-                &_active{
+                &_active {
                     margin-left: 30px;
                     transform: translateX(-15%);
-                }  
+                }
             }
-            &_descr{
+            &_descr {
                 position: relative;
                 width: 100%;
                 transition: 0.5s;
@@ -126,30 +125,28 @@ button{
                 justify-content: space-around;
                 color: white;
                 font-size: 18px;
-                &_txt{
+                &_txt {
                     font-size: 15px;
                     font-weight: 400;
                     text-align: center;
-                    span{
+                    span {
                         color: rgb(252, 230, 159);
                         font-size: 14px;
                         font-weight: 300;
                     }
                 }
-                &_active{
+                &_active {
                     margin-left: 30px;
                     transform: translateX(-120%);
                 }
             }
         }
     }
-    
 }
-
 
 .wrapper {
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
     padding: 60px 0 0 0;
 }
 
@@ -157,21 +154,20 @@ button{
 .other {
     padding: 10px;
     width: 40%;
-
 }
 
-.shadow-wrapper{
+.shadow-wrapper {
     filter: drop-shadow(5px 7px 4px rgba(22, 22, 22, 0.8));
 }
 
 .title {
     background-color: rgba(20, 20, 20, 0.418);
-    font-family: 'Bad Script', cursive;
+    font-family: "Bad Script", cursive;
     color: white;
     text-transform: uppercase;
     margin: 0 auto;
     text-align: center;
-    clip-path: polygon(0 0,100% 1%,100% 50%,50% 100%,0 50%);
+    clip-path: polygon(0 0, 100% 1%, 100% 50%, 50% 100%, 0 50%);
 }
 
 .container {
@@ -179,16 +175,16 @@ button{
     padding: 0 80px;
 }
 
-.item-wrapper{
+.item-wrapper {
     display: flex;
     width: calc(170% + 30px);
 }
 
-.line-1{
+.line-1 {
     position: relative;
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
     font-size: 100%;
     text-align: center;
     white-space: nowrap;
@@ -197,4 +193,4 @@ button{
 
 .wow {
     visibility: hidden;
-  }
+}

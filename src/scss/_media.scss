@@ -22,56 +22,51 @@
 }
 
 @media (max-width: 570px) {
-    .header{
+    .header {
         justify-content: center;
-    .status {
-        display: none;
+        .status {
+            display: none;
+        }
+        .social {
+            width: 98%;
+            justify-content: space-between;
+        }
     }
-    .social{
-        width: 98%;
-        justify-content: space-between;
+
+    .item-wrapper {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
-}
 
-.item-wrapper{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.budget,
-.pulse,
-.taxi,
-.game {
-    
-    .text{
-        &-wrapper{
-            &_links {
-               
-                transform: translateX(-100%);
-                a {
-                    font-size: 18px;
+    .budget,
+    .pulse,
+    .taxi,
+    .game {
+        .text {
+            &-wrapper {
+                &_links {
+                    transform: translateX(-100%);
+                    a {
+                        font-size: 18px;
+                    }
+                    &_active {
+                        margin-left: 30px;
+                        transform: translateX(47%);
+                    }
                 }
-                &_active{
-                    margin-left: 30px;
-                    transform: translateX(47%);
-                }  
-            }
-            &_descr{
+                &_descr {
+                    transform: translateX(50%);
 
-                transform: translateX(50%);
-
-                &_active{
-                    margin-left: 30px;
-                    transform: translateX(-53%);
+                    &_active {
+                        margin-left: 30px;
+                        transform: translateX(-53%);
+                    }
                 }
             }
         }
     }
-    
-}
 }
 
 @media (max-width: 448px) {
@@ -79,31 +74,29 @@
     .pulse,
     .taxi,
     .game {
-    .text{
-        &-wrapper{
-            &_links {
-               
-                transform: translateX(-100%);
-                a {
-                    font-size: 18px;
+        .text {
+            &-wrapper {
+                &_links {
+                    transform: translateX(-100%);
+                    a {
+                        font-size: 18px;
+                    }
+                    &_active {
+                        margin-left: 30px;
+                        transform: translateX(45%);
+                    }
                 }
-                &_active{
-                    margin-left: 30px;
-                    transform: translateX(45%);
-                }  
-            }
-            &_descr{
+                &_descr {
+                    transform: translateX(50%);
 
-                transform: translateX(50%);
-
-                &_active{
-                    margin-left: 30px;
-                    transform: translateX(-55%);
+                    &_active {
+                        margin-left: 30px;
+                        transform: translateX(-55%);
+                    }
                 }
             }
         }
     }
-}
 }
 
 @media (max-width: 340px) {
@@ -111,29 +104,27 @@
     .pulse,
     .taxi,
     .game {
-    .text{
-        &-wrapper{
-            &_links {
-               
-                transform: translateX(-100%);
-                a {
-                    font-size: 18px;
+        .text {
+            &-wrapper {
+                &_links {
+                    transform: translateX(-100%);
+                    a {
+                        font-size: 18px;
+                    }
+                    &_active {
+                        margin-left: 30px;
+                        transform: translateX(42%);
+                    }
                 }
-                &_active{
-                    margin-left: 30px;
-                    transform: translateX(42%);
-                }  
-            }
-            &_descr{
+                &_descr {
+                    transform: translateX(50%);
 
-                transform: translateX(50%);
-
-                &_active{
-                    margin-left: 30px;
-                    transform: translateX(-58%);
+                    &_active {
+                        margin-left: 30px;
+                        transform: translateX(-58%);
+                    }
                 }
             }
         }
     }
-}
 }
